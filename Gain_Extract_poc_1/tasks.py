@@ -19,7 +19,7 @@ def run():
         page.select_option("select[name='ddlBranch']", "72")
         page.fill("input[name='txtUserName']", "kadmin")
         page.press("input[name='txtUserName']", "Tab")
-        page.fill("input[name='txtPassword']", "k")
+        page.fill("input[name='txtPassword']", "")
         page.click("input[name='btnLogin']")
 
         # Navigate to the report
